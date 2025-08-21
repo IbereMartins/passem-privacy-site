@@ -1,21 +1,24 @@
-# P.A.S.M.E.M. — Política de Privacidade
+# P.A.S.M.E.M. — Política de Privacidade e Licença
 
-Repositório público para hospedar a **Política de Privacidade** do GPT *P.A.S.M.E.M. – Seu aliado nos estudos* (LGPD) e a **licença de software**.
+Este repositório contém:
+- `privacy.md` (Política de Privacidade em Markdown — ideal para GitHub Pages)
+- `privacy.html` (versão HTML pronta para qualquer hospedagem)
+- `LICENSE` (GNU GPL v2)
 
-## 🔗 Link público (GitHub Pages)
-> Depois de ativar o GitHub Pages (Settings → Pages), use um destes links:
-- Política (Markdown): https://IbereMartins.github.io/passem-privacy-site/privacy
-- Política (HTML): https://IbereMartins.github.io/passem-privacy-site/privacy.html
+## Como publicar no GitHub Pages
+1. Suba estes arquivos na **raiz** do repositório (ou na pasta **/docs**).
+2. Vá em **Settings → Pages** e configure:
+   - **Source:** Deploy from a branch
+   - **Branch:** `main` (ou a sua branch) e **/ (root)** (ou **/docs** se usou a pasta docs)
+3. Clique em **Save** e anote a URL exibida (ex.: `https://SEU-USUARIO.github.io/SEU-REPO/`).
 
-Use um desses no ChatGPT Builder → **Configure → Actions → Privacy policy URL** (em cada Action).
+## Link da Política de Privacidade
+Use um destes no ChatGPT Builder → **Configure → Actions → Privacy policy URL**:
 
-## 📂 Arquivos
-- `privacy.md` — Política de Privacidade (Markdown)
-- `privacy.html` — Política de Privacidade (HTML)
-- `LICENSE` — GNU General Public License v2
+- `https://SEU-USUARIO.github.io/SEU-REPO/privacy`  (se você usar `privacy.md` na raiz)
+- `https://SEU-USUARIO.github.io/SEU-REPO/privacy.html`  (se preferir a versão HTML)
 
-## 📬 Contato (LGPD)
-Dúvidas/solicitações: ibere.martins@ifam.edu.br
+> Dica: teste o link no navegador; ele deve abrir sem login e retornar **HTTP 200**.
 
-## 📝 Licença
-Distribuído sob **GNU GPL v2**. Veja o arquivo [LICENSE](./LICENSE).
+## Última atualização
+21/08/2025
